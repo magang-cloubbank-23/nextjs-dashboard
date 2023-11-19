@@ -28,19 +28,17 @@ export default function Page() {
       </Link>
     </div>
     <div className="flex-container flex-1 flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-      <Image
+    <Image
         src="/hero-desktop.png"
         width={1000}
         height={760}
-        layout="fill"
         className="hidden md:block"
-        alt="Screenshots of the dashboard project showing desktop and mobile versions"
+        alt="Screenshots of the dashboard project showing desktop version"
       />
-      <Image
+       <Image
         src="/hero-mobile.png"
         width={560}
         height={620}
-        layout="fill"
         className="block md:hidden"
         alt="Screenshot of the dashboard project showing mobile version"
       />
